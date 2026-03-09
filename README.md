@@ -52,7 +52,7 @@ Gắn trực tiếp trên Quadcopter, làm nhiệm vụ thu thập dữ liệu v
   * **3D Attitude:** Sử dụng `JavaFX 3D` (SubScene, PhongMaterial) để tạo một mô hình 3D mô phỏng thời gian thực độ nghiêng của Drone.
   * **Telemetry Charts:** Vẽ biểu đồ biến thiên độ cao và tốc độ theo thời gian thực.
   * **GPS Mapping:** Tích hợp WebEngine hoặc thư viện bản đồ (như Leaflet/Google Maps API) để vẽ quỹ đạo bay.
-* **Xử lý Video & Điều phối:** Nhận luồng UDP từ ESP32-CAM, hiển thị lên UI, đồng thời forward các frame ảnh (gửi qua HTTP/gRPC) sang AI Service.
+* **Xử lý Video & Điều phối:** Nhận luồng UDP từ ESP32-CAM, hiển thị lên UI, đồng thời forward các frame ảnh (qua gRPC) sang AI Service.
 
 
 
