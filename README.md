@@ -10,13 +10,13 @@ Dự án này là một hệ thống toàn diện (End-to-End) kết hợp giữ
 
 Hệ thống được thiết kế theo kiến trúc phân tán (Distributed Architecture), bao gồm 6 module chính. Bạn có thể truy cập mã nguồn của từng thành phần qua các link dưới đây:
 
-* 🛸 **1. UAV Telemetry Node:** [Link GitHub: Điền link tại đây]
-* 📷 **2. UAV Video Node:** [Link GitHub: Điền link tại đây]
-* 📟 **3. Ground Station Gateway:** [Link GitHub: Điền link tại đây]
-* 🖥 **4. JavaFX Ground Control Station:** [Link GitHub: Điền link tại đây]
-* 🧠 **5. AI Vision Service (DJL/YOLO):** [Link GitHub: Điền link tại đây]
-* ☁️ **6. Spring Boot Backend Server:** [Link GitHub: Điền link tại đây]
-* 📱 **7. iOS Client App:** [Link GitHub: Điền link tại đây]
+* 🛸 **1. UAV Telemetry Node:** https://github.com/phxbac909/ESP32-SAT/tree/Communication
+* 📷 **2. UAV Video Node:** 
+* 📟 **3. Ground Station Gateway:** https://github.com/phxbac909/ESP32-GS/tree/Communication
+* 🖥 **4. JavaFX Ground Control Station:** https://github.com/phxbac909/SatelliteClientDesktop
+* 🧠 **5. AI Vision Service (DJL/YOLO):** https://github.com/phxbac909/CameraAI
+* ☁️ **6. Spring Boot Backend Server:** https://github.com/phxbac909/SattelliteServer
+* 📱 **7. iOS Client App:** [[Link GitHub: Điền link tại đây]](https://github.com/phxbac909/client-iOS)
 
 ---
 
@@ -94,21 +94,6 @@ Gắn trực tiếp trên Quadcopter, làm nhiệm vụ thu thập dữ liệu v
 6. **Spring Boot ➔ iOS Client:** Push dữ liệu mới nhất qua WebSocket để cập nhật giao diện điện thoại.
 
 ---
-
-## ⚙️ Yêu cầu môi trường & Cài đặt
-
-### Phần cứng
-* Máy bay Quadcopter tự ráp hoặc tương thích.
-* 3x Board phát triển ESP32 (NodeMCU/Wroom).
-* 1x Module Camera ESP32-CAM.
-* 2x Module LoRa RA-01H (Tần số phù hợp với quốc gia).
-* Module cảm biến: MPU6050, BMP280, GPS Neo-6M.
-
-### Phần mềm
-* **Vi điều khiển:** Arduino IDE hoặc PlatformIO (C/C++).
-* **Desktop:** JDK 17+, Maven/Gradle, JavaFX SDK.
-* **AI & Backend:** DJL Framework, Spring Boot 3.x, Database Engine.
-* **Mobile:** Xcode 15+, iOS 16.0+.
 
 ---
 *Dự án được xây dựng với mục tiêu chứng minh khả năng tính toán biên (Edge Computing) và giám sát diện rộng bằng thiết bị bay không người lái kết hợp AI.*
