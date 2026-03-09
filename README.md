@@ -16,7 +16,7 @@ Hệ thống được thiết kế theo kiến trúc phân tán (Distributed Arc
 * 🖥 **4. JavaFX Ground Control Station:** https://github.com/phxbac909/SatelliteClientDesktop
 * 🧠 **5. AI Vision Service (DJL/YOLO):** https://github.com/phxbac909/CameraAI
 * ☁️ **6. Spring Boot Backend Server:** https://github.com/phxbac909/SattelliteServer
-* 📱 **7. iOS Client App:** [[Link GitHub: Điền link tại đây]](https://github.com/phxbac909/client-iOS)
+* 📱 **7. iOS Client App:** https://github.com/phxbac909/client-iOS
 
 ---
 
